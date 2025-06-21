@@ -1,6 +1,6 @@
 # Performance Load Testing Using jemeter 
 ## Project Summary:
-This project involves performance testing using **Apache JMeter** on the [Restful Booker API](https://restful-booker.herokuapp.com/). The test simulates a load of up to **120,000 users over 12 hours**, covering:
+This project involves performance testing using **Apache JMeter** . The test simulates a load of up to **120,000 users over 12 hours**, covering:
 
 - User login
 - Booking creation
@@ -28,10 +28,10 @@ Due to server limitations, some errors were observed under high stress. Both **L
 
 ## How to Run This Project
 
-```bash
-git clone https://github.com/rifat/booking-performance-test.git
-cd booking-performance-test
-jmeter -n -t booking.jmx -l booking.jtl -e -o Reports
+-bash
+-git clone https://github.com/rifat/booking-performance-test.git
+-cd booking-performance-test
+-jmeter -n -t booking.jmx -l booking.jtl -e -o Reports
 
 ## Load Testing Report
 # 5 minutes
